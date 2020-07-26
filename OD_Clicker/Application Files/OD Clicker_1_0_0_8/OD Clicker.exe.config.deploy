@@ -1,0 +1,27 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<configuration>
+    <configSections>
+        <sectionGroup name="userSettings" type="System.Configuration.UserSettingsGroup, System, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" >
+            <section name="OD_Clicker.Properties.Settings" type="System.Configuration.ClientSettingsSection, System, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" allowExeDefinition="MachineToLocalUser" requirePermission="false" />
+        </sectionGroup>
+    </configSections>
+    <startup> 
+        <supportedRuntime version="v4.0" sku=".NETFramework,Version=v4.7.2" />
+    </startup>
+    <userSettings>
+        <OD_Clicker.Properties.Settings>
+            <setting name="Min" serializeAs="String">
+                <value>200</value>
+            </setting>
+            <setting name="Max" serializeAs="String">
+                <value>63</value>
+            </setting>
+            <setting name="GapFrequency" serializeAs="String">
+                <value>5</value>
+            </setting>
+            <setting name="RightClickDisable" serializeAs="String">
+                <value>True</value>
+            </setting>
+        </OD_Clicker.Properties.Settings>
+    </userSettings>
+</configuration>
